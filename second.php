@@ -2,7 +2,7 @@
 <?php  
 
         // Ruta del archivo JSON local
-        const JSON_URL = "https://raw.githubusercontent.com/Kvothe9/mcu_movies/main/mcu_movies.json";
+        const JSON_URL = "https://whenisthenextmcufilm.com/api";
 
         // Obtener los datos del archivo JSON
         $result = @file_get_contents(JSON_URL);
