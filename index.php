@@ -88,7 +88,7 @@
 <body>
     <main>
         <section> 
-            <img src="<?= $data["poster_url"]; ?>" width="300" alt="Poster de <?= $data["title"]; ?>" 
+            <img src="<?= $data["poster_url"]; ?>" width="325" alt="Poster de <?= $data["title"]; ?>" 
             style="border-radius: 16px"/>
         </section>
 
@@ -96,7 +96,7 @@
             <h3><?= $data["title"]; ?> se estrena en <?= $data["days_until"]; ?> días</h3>
             <p>Fecha de estreno: <?= $data["release_date"]; ?></p>
             <p>Tipo de producción: <?= $data["type"] ?></p>
-            <p>La siguente película es: <a href="second.php"> <?= $data["following_production"]["title"]; ?> </a></p>
+            <p>La siguente película de Marvel es: <a href="second.php"> <?= $data["following_production"]["title"]; ?> </a></p>
         </hgroup>
 
     </main>
