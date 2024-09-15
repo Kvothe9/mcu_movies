@@ -39,7 +39,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Próxima Película de Marvel</title>
+    <title>Próximo esteno de Marvel</title>
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css"
@@ -96,7 +96,7 @@
             <h3><?= $data["title"]; ?> se estrena en <?= $data["days_until"]; ?> días</h3>
             <p>Fecha de estreno: <?= $data["release_date"]; ?></p>
             <p>Tipo de producción: <?= $data["type"] ?></p>
-            <p>La siguente película de Marvel es: <a href="second.php"> <?= $data["following_production"]["title"]; ?> </a></p>
+            <p>Siguiente estreno de Marvel: <a href="second.php"> <?= $data["following_production"]["title"]; ?> </a></p>
         </hgroup>
 
     </main>
