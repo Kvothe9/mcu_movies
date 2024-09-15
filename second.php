@@ -90,7 +90,7 @@
  <body>
     <main>
         <section>
-             <img src="<?= $data["following_production"]["poster_url"]; ?>" width="300" alt="Poster de <?= $data["following_production"]["title"]; ?>"
+             <img src="<?= $data["following_production"]["poster_url"]; ?>" width="500" alt="Poster de <?= $data["following_production"]["title"]; ?>"
              style="border-radius: 16px"/>
         </section>
 
